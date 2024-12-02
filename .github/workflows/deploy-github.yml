@@ -25,7 +25,6 @@ jobs:
 
       - name: Build project
         run: |
-          cd server # Navigate to the server directory
           npm run build
 
       - name: Start websockets
