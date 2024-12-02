@@ -99,9 +99,6 @@
 	<div id="three-canvas-container">
 		<App />
 	</div>
-	<div id="scroller">
-		<slot />
-	</div>
 </main>
 
 <style>
