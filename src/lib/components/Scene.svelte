@@ -1,5 +1,4 @@
 <script>
-	import Ground from './Ground.svelte';
 	import { T } from '@threlte/core';
 	import { ContactShadows, Float, Grid, OrbitControls } from '@threlte/extras';
 </script>
@@ -22,4 +21,3 @@
 
 <ContactShadows scale={10} blur={2} far={2.5} opacity={0.5} />
 <T.GridHelper args={[50]} />
-<Ground />

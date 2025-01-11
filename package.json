@@ -1,11 +1,11 @@
 {
-	"name": "First Person Multishooter",
+	"name": "EverySpec project starter",
 	"version": "0.0.1",
 	"private": true,
-	"main": "server/index.js",
 	"scripts": {
 		"dev": "vite dev --host",
-		"build": "node build",
+		"start": "node build",
+		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
@@ -14,7 +14,6 @@
 		"model-pipeline:run": "node scripts/model-pipeline.js"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/adapter-node": "^5.2.2",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
